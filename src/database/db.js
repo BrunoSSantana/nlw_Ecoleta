@@ -77,6 +77,4 @@ db.serialize( () => {
     //    console.log("Registro Deletado com sucesso!")
     //})
 
-
-
 } )
