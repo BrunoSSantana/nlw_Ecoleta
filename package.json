@@ -9,7 +9,6 @@
     "express": "^4.17.1",
     "nodemon": "^2.0.4",
     "nunjucks": "^3.2.1",
-    "sqlite": "^4.0.10",
-    "sqlite3": "^4.2.0"
+    "sqlite3": "^5.0.2"
   }
 }

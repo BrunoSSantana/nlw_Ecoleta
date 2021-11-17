@@ -1,0 +1,43 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add sqlite3
+
+PATH: 
+  /home/bruno/.zinit/polaris/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/bruno/www/github/nlw_Ecoleta/package.json: Unexpected token } in JSON at position 224
+      at JSON.parse (<anonymous>)
+      at /usr/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "nlw",
+    "version": "1.0.0",
+    "main": "src/server.js",
+    "scripts": {
+      "start": "nodemon src/server.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "nodemon": "^2.0.4",
+      "nunjucks": "^3.2.1",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
