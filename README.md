@@ -6,19 +6,31 @@
 
 <blockquote align="center">  Projeto criado durante a Next-level-week</blockquote>
 
-# Índice
-* [Sobre](#-sobre)
-* [Tecologias Utilizadas](#-tecnologias-utilizadas)
-* [Como Instalar o Projeto](#-como-instalar-o-projeto)
-* [Contato](#-contato)
-* [Licença](#-licensa)
+<p align="center">
+Índice
+</p> 
 
-## Sobre
+<p align="center">
+  <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-references">References</a>
+</p>
+
+## 👨🏻‍💻 About the project
 
 O **ecoleta** é uma aplicação pensanda para facilitar o encontro dos pontos de coleta de materiais recicláveis, onde alí estaria uma página de cadastro onde uma pessoa ou organização estaria cadastrando e identificando qual tpo de material seria tratado.
 
+Home
+![home](Public/images/home.png)
+Modal que busca ponto de coleta
+![find](Public/images/find.png)
+Resultado de busca de ponto de coleta
+![pontos_de_coleta](Public/images/pontos_de_coleta.png)
+
 ---
-## Tecnologias Utilizadas
+## 🚀 Technologies
 O projeto foi desenvolvido utilizando as seguinte tecnologias:
  - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
  - [CSS3](https://www.w3schools.com/css/)
@@ -27,7 +39,7 @@ O projeto foi desenvolvido utilizando as seguinte tecnologias:
  - [Express](https://expressjs.com/)
  - [Nunjucks](https://mozilla.github.io/nunjucks/)
 ---
-## Como Instalar
+## 💻 Getting started
  ```bash
     #clonando o repositório
     $ gitclone https://github.com/BrunoSSantana/Next-level-week/
@@ -43,17 +55,12 @@ O projeto foi desenvolvido utilizando as seguinte tecnologias:
     
  ```
 ---
- ## :speech_balloon: Contato
- 
- Bruno Santana - [@BrunoSSantanas](https://twitter.com/BrunoSSantanas) - [brunoosouzas@hotmail.com](mailto:m.bluth@example.com)
- 
- ---
- ## :page_facing_up: Linceça
+ ## 📝 License
  
  Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licenses/MIT) para obter mais informações.
  
  ---
- ## :green_heart: Reconhecimentos
+ ## ☝ Referencias
  
 - [Como criar um RADME | by Daniele Leao Evangelista](https://www.youtube.com/watch?v=Gcb60rPbnKA&t=554s)
 - [O que todo projeto deveria ter? #01 | by Mario Solto (Dev Soltinho)](https://www.youtube.com/watch?v=yMRSDdifGW8&t=1107s)

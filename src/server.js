@@ -1,4 +1,5 @@
 const express = require("express")
+const path = require('path')
 const server = express()
 
 //pegar o banco de dados
@@ -7,7 +8,8 @@ const bancoDeDados = require("./database/db.js")
 
 
 //configurar pasa pública
-server.use(express.static("public"))
+server.use(express.static(path.join(__dirname, '..', 'Public')))
+server.use('/static', express.static('public'))
 
 //habilitar o uso do req.body na nossa aplicação
 
